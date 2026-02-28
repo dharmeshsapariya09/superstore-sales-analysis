@@ -55,6 +55,8 @@ The project answers the following key business questions:
 - Profit Trend Analysis  
 
 ---
+
+## 📂 Project Structure  
 superstore-sales-analysis/
 │
 ├── data/
@@ -143,6 +145,3 @@ This project demonstrates:
 ## 📌 Author  
 
 **Dharmesh Sapariya**
-
-## 📂 Project Structure  
- Profit distribution across regions suggests potential for targeted marketing and pricing optimization strategies.
