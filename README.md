@@ -54,29 +54,28 @@ The project answers the following key business questions:
 - Customer Behavioral Analysis  
 - Profit Trend Analysis  
 
----
-
 ## 📂 Project Structure  
+
+```
 superstore-sales-analysis/
 │
 ├── data/
-│ └── superstore.csv
+│   └── superstore.csv
 │
 ├── sql/
-│ ├── 01_sales_overview.sql
-│ ├── 02_customer_analysis.sql
-│ ├── 03_product_analysis.sql
-│ └── 04_window_functions.sql
+│   ├── 01_sales_overview.sql
+│   ├── 02_customer_analysis.sql
+│   ├── 03_product_analysis.sql
+│   └── 04_window_functions.sql
 │
 ├── powerbi/
-│ └── dashboard.pbix
+│   └── dashboard.pbix
 │
 ├── images/
-│ └── dashboard_screenshot.png
+│   └── dashboard_screenshot.png
 │
 └── README.md
-
----
+```
 
 ## 📊 Key SQL Analysis Performed  
 
