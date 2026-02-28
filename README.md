@@ -71,7 +71,9 @@ Customer Behavioral Analysis
 
 Profit Trend Analysis
 
-📂 Project Structure
+## 📂 Project Structure  
+
+```
 superstore-sales-analysis/
 │
 ├── data/
@@ -81,7 +83,7 @@ superstore-sales-analysis/
 │   ├── 01_sales_overview.sql
 │   ├── 02_customer_analysis.sql
 │   ├── 03_product_analysis.sql
-│   ├── 04_window_functions.sql
+│   └── 04_window_functions.sql
 │
 ├── powerbi/
 │   └── dashboard.pbix
@@ -90,6 +92,7 @@ superstore-sales-analysis/
 │   └── dashboard_screenshot.png
 │
 └── README.md
+```
 📊 Key SQL Analysis Performed
 1️⃣ Sales Overview
 
