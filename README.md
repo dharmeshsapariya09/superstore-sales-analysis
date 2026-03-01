@@ -142,5 +142,50 @@ This project demonstrates:
 ---
 
 ## 📌 Author  
-
 **Dharmesh Sapariya**
+---
+
+## 🧠 Customer Segmentation Using RFM Model
+
+### 🔹 RFM Methodology
+
+- Recency (R): Days since last purchase  
+- Frequency (F): Total number of orders  
+- Monetary (M): Total profit generated  
+
+Customers were scored using NTILE(5) for each metric:
+
+- Lower Recency → Higher Score  
+- Higher Frequency → Higher Score  
+- Higher Monetary → Higher Score  
+
+Final RFM Score = R + F + M (Range: 3–15)
+
+---
+
+### 📊 RFM Distribution
+
+| Segment | Customers |
+|----------|------------|
+| 🟡 Potential Customers | 265 |
+| 💎 Loyal Customers | 231 |
+| ⚠️ At Risk | 170 |
+| 🏆 Champions | 111 |
+| ❌ Lost Customers | 16 |
+
+---
+💡 Strategic Insights from RFM Analysis
+
+14% of customers (111) are Champions, representing the most engaged and high-value segment. These customers should be prioritized for loyalty rewards and premium engagement strategies.
+
+33% of customers fall under Potential Customers, indicating a strong opportunity to convert them into Loyal or Champion segments through targeted marketing campaigns.
+
+21% of customers are At Risk, requiring proactive retention strategies such as personalized offers or re-engagement communication.
+
+Only 2% are Lost Customers, suggesting overall healthy customer retention across the business lifecycle.
+
+The balanced distribution across segments demonstrates stable customer engagement but highlights room for revenue expansion through segment-focused optimization.
+
+This RFM model enables targeted marketing, retention strategy, and revenue optimization.
+
+
