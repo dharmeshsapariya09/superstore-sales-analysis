@@ -1,7 +1,12 @@
 -- ============================================
 -- RFM Customer Segmentation Analysis
--- Project: Superstore Sales Analysis
+-- Dataset: Superstore
 -- Author: Dharmesh Sapariya
+-- Description:
+-- This script calculates Recency, Frequency,
+-- Monetary scores using NTILE(5) and segments
+-- customers into Champions, Loyal, Potential,
+-- At Risk, and Lost categories.
 -- ============================================
 
 WITH max_date AS
